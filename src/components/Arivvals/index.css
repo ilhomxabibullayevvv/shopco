@@ -1,0 +1,152 @@
+.arivvals {
+    padding: 60px 0px;
+    text-align: center;
+}
+
+.arivvals__title {
+    font-family: Integral CF;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57.6px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.arivvals__content {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.arivvals__pictures {
+    width: 295px;
+    height: 298px;
+    top: 1104px;
+    left: 100px;
+    border-radius: 20px;
+}
+
+.arivvals__name {
+    font-family: Satoshi;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+.arivvals__rank {
+    font-family: Satoshi;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.9px;
+    letter-spacing: 0%;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.arivvals__price {
+    font-family: Satoshi;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32.4px;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+.arivvals__btn {
+    width: 218px;
+    height: 52px;
+    top: 1548px;
+    left: 611px;
+    gap: 12px;
+    border-radius: 62px;
+    border-width: 1px;
+    padding-top: 16px;
+    padding-right: 54px;
+    padding-bottom: 16px;
+    padding-left: 54px;
+    border: 1px solid #0000001A;
+    background: none;
+    font-family: Satoshi;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21.6px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #000000;
+}
+
+.arivvals__btn:hover {
+    background: #000000;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1099px) {
+    .arivvals {
+        padding: 30px 15px;
+    }
+
+    .arivvals__title {
+        font-family: Integral CF;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 38.4px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
+    .arivvals__btn {
+        width: 358px;
+        height: 46px;
+        top: 1524px;
+        left: 16px;
+        gap: 12px;
+        border-radius: 62px;
+        border-width: 1px;
+        padding-top: 16px;
+        padding-right: 54px;
+        padding-bottom: 16px;
+        padding-left: 54px;
+        font-family: Satoshi;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18.9px;
+        letter-spacing: 0%;
+    }
+
+    .arivvals__content {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 5px;
+    }
+
+    .arivvals__pictures {
+        width: 198px;
+        height: 200.01356506347656px;
+        top: 1217px;
+        left: 16px;
+        border-radius: 13.42px;
+    }
+
+    .arivvals__name {
+        font-family: Satoshi;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 21.6px;
+        letter-spacing: 0%;
+    }
+
+    .arivvals__price {
+        font-family: Satoshi;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 27px;
+        letter-spacing: 0%;
+    }
+}

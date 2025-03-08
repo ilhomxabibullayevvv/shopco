@@ -1,0 +1,135 @@
+.customers {
+    padding: 60px 0px;
+}
+
+.customers__content {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.customers__title {
+    font-family: Integral CF;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57.6px;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+.customers__button {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.customers__btn {
+    background: none;
+}
+
+.customers__content2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.customers__card {
+    width: 400px;
+    height: 240px;
+    top: 3461px;
+    left: 100px;
+    gap: 342px;
+    border-radius: 20px;
+    border-width: 1px;
+    padding-top: 28px;
+    padding-right: 32px;
+    padding-bottom: 28px;
+    padding-left: 32px;
+    border: 1px solid #0000001A;
+}
+
+.customers__stars {
+    width: 22.5789852142334px;
+    height: 22.5789852142334px;
+    margin-bottom: 15px;
+}
+
+.customers__block {
+    display: flex;
+    align-items: start;
+    gap: 5px;
+}
+
+.customers__reviewer-name {
+    font-family: Satoshi;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    margin-bottom: 15px;
+}
+
+.customers__comment {
+    font-family: Satoshi;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #00000099;
+}
+
+@media screen and (max-width: 1099px) {
+    .customers {
+        padding: 30px 15px;
+    }
+
+    .customers__container {
+        flex-direction: column;
+    }
+
+    .customers__title {
+        font-family: Integral CF;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 36px;
+        letter-spacing: 0%;
+    }
+
+    .customers__content2 {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .customers__button {
+        gap: 5px;
+    }
+
+    .customers__card {
+        width: 358px;
+        height: 186.1895751953125px;
+        top: 3244px;
+        left: 16px;
+        gap: 342px;
+        border-radius: 20px;
+        border-width: 1px;
+        padding: 24px;
+        margin-bottom: 15px;
+    }
+
+    .customers__reviewer-name {
+        font-family: Satoshi;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0%;
+    }
+
+    .customers__comment {
+        font-family: Satoshi;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0%;
+    }
+}

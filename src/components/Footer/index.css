@@ -1,0 +1,133 @@
+.footer {
+    padding: 30px 0px;
+    background: #F0F0F0;
+}
+
+.footer__block {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.footer__text {
+    width: 228px;
+    font-family: Satoshi;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0px;
+    color: #00000099;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footer__icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer__btn {
+    width: 28px;
+    height: 28px;
+    top: 149px;
+    border-width: 1px;
+    background: #FFFFFF;
+    border: 1px solid #00000033;
+    border-radius: 50%;
+}
+
+.footer__content2 {
+    display: flex;
+    align-items: start;
+    gap: 130px;
+}
+
+.footer__name {
+    margin-bottom: 30px;
+}
+
+.footer__item {
+    margin-bottom: 20px;
+}
+
+.footer__link {
+    font-family: Satoshi;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0px;
+    color: #00000099;
+}
+
+.footer__link:hover {
+    color: #000000;
+}
+
+.footer__span {
+    width: 1240.0000000000048;
+    top: 4238px;
+    left: 100px;
+    border-width: 1px;
+    border: 1px solid #0000001A;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.footer__content3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__title {
+    font-family: Satoshi;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.9px;
+    letter-spacing: 0%;
+    text-align: right;
+    color: #00000099;
+}
+
+.footer__icon2 {
+    display: flex;
+    align-items: start;
+}
+
+@media screen and (max-width: 1099px) {
+    .footer {
+        padding: 30px 15px;
+    }
+
+    .footer__block {
+        flex-direction: column;
+    }
+
+    .footer__content2 {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 60px;
+        margin-top: 30px;
+    }
+
+    .footer__content3 {
+        flex-direction: column;
+    }
+
+    .footer__title {
+        font-family: Satoshi;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18.9px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin-left: 0px;
+        margin-bottom: 15px;
+    }
+
+    .footer__icon2 {
+        margin-left: 15px;
+    }
+}

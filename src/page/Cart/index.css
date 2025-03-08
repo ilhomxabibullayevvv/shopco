@@ -1,0 +1,556 @@
+.cart__span {
+    width: 1240.0000000000048px;
+    top: 134px;
+    left: 100px;
+    border-width: 1px;
+    border: 1px solid #0000001A;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.cart__content3 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.cart__content {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.cart__link {
+    font-family: Satoshi;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.6px;
+    letter-spacing: 0%;
+    color: #00000099;
+}
+
+.cart__link:hover {
+    color: #000000;
+}
+
+.cart__items-list {
+    width: 715px;
+    height: auto;
+    top: 276px;
+    left: 100px;
+    border-radius: 20px;
+    border-width: 1px;
+    padding-top: 20px;
+    padding-right: 24px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    gap: 24px;
+    border: 1px solid #0000001A;
+}
+
+.cart__cards {
+    width: 667px;
+    height: 124px;
+    gap: 16px;
+    margin-bottom: 50px;
+}
+
+.cart__name {
+    font-family: Satoshi;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0%;
+}
+
+.cart__size {
+    font-family: Satoshi;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.9px;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+.cart__color {
+    font-family: Satoshi;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.9px;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.cart__price3 {
+    font-family: Satoshi;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32.4px;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+.cart__span4 {
+    width: 667.0000000000025px;
+    border-width: 1px;
+    border: 1px solid #0000001A;
+    display: block;
+}
+
+.cart__card {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.cart__pictures {
+    width: 124px;
+    height: 124px;
+    border-radius: 8.66px;
+}
+
+.cart__title {
+    font-family: Integral CF;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.cart__block2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.cart__card2 {
+    width: 505px;
+    height: 458px;
+    top: 276px;
+    left: 835px;
+    border-radius: 20px;
+    border-width: 1px;
+    padding-top: 20px;
+    padding-right: 24px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    gap: 24px;
+    border: 1px solid #0000001A;
+}
+
+.cart__image2 {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 60px;
+    margin-left: 100px;
+}
+
+.cart__btn {
+    display: flex;
+    align-items: start;
+    width: 126px;
+    height: 44px;
+    border-radius: 62px;
+    padding-top: 12px;
+    padding-right: 20px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    gap: 20px;
+    background: #F0F0F0;
+}
+
+.cart__span2 {
+    width: 15.625px;
+    height: 1.875px;
+    top: 9.06px;
+    left: 2.19px;
+    font-family: Satoshi;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18.9px;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+.cart__form {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 326px;
+    height: 48px;
+    border-radius: 62px;
+    padding-top: 12px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    gap: 12px;
+    background: #F0F0F0;
+}
+
+.cart__input {
+    font-family: Satoshi;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.6px;
+    letter-spacing: 0%;
+    color: #00000066;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.cart__sub-title {
+    font-family: Satoshi;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32.4px;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.cart__content2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.cart__price {
+    font-family: Satoshi;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: right;
+    color: #000000;
+}
+
+.cart__price2 {
+    font-family: Satoshi;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: right;
+    color: #FF3333;
+}
+
+.cart__sub2-title {
+    font-family: Satoshi;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    color: #00000099;
+}
+
+.cart__span3 {
+    width: 457.0000000000017px;
+    border-width: 1px;
+    border: 1px solid #0000001A;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.cart__sub2-title {
+    font-family: Satoshi;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+.cart__btn2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 326px;
+    height: 48px;
+    border-radius: 62px;
+    padding-top: 12px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    gap: 12px;
+    background: #F0F0F0;
+    font-family: Satoshi;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.6px;
+    letter-spacing: 0%;
+    color: #00000066;
+}
+
+.cart__btn3 {
+    width: 119px;
+    height: 48px;
+    border-radius: 62px;
+    padding-top: 12px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    gap: 12px;
+    background: #000000;
+    font-family: Satoshi;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21.6px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.cart__btn4 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 457px;
+    height: 60px;
+    border-radius: 62px;
+    padding-top: 16px;
+    padding-right: 54px;
+    padding-bottom: 16px;
+    padding-left: 54px;
+    gap: 12px;
+    background: #000000;
+    font-family: Satoshi;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21.6px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    padding-left: 150px;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 1099px) {
+    .cart {
+        padding: 0px 15px;
+    }
+
+    .cart__title {
+        font-family: Integral CF;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 38.4px;
+        letter-spacing: 0%;
+        margin-bottom: 15px;
+    }
+
+    .cart__items-list {
+        width: 358px;
+        height: auto;
+        top: 203px;
+        left: 16px;
+        border-radius: 20px;
+        border-width: 1px;
+        gap: 16px;
+        padding: 14px;
+        margin-bottom: 30px;
+    }
+
+    .cart__card {
+        gap: 15px;
+    }
+
+    .cart__span {
+        width: 358.00000000000136px;
+        top: 98px;
+        left: 16px;
+        border-width: 1px;
+    }
+
+    .cart__content {
+        flex-direction: column;
+    }
+
+    .cart__cards {
+        width: 330px;
+        height: auto;
+        gap: 0px;
+        margin-bottom: 30px;
+    }
+
+    .cart__pictures {
+        width: 99px;
+        height: 99px;
+        border-radius: 8.66px;
+    }
+
+    .cart__name {
+        width: 181px;
+        font-family: Satoshi;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 21.6px;
+        letter-spacing: 0%;
+    }
+
+    .cart__size {
+        font-family: Satoshi;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16.2px;
+        letter-spacing: 0%;
+    }
+
+    .cart__color {
+        font-family: Satoshi;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16.2px;
+        letter-spacing: 0%;
+    }
+
+    .cart__price3 {
+        font-family: Satoshi;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 27px;
+        letter-spacing: 0%;
+    }
+
+    .cart__btn {
+        width: 105px;
+        height: 31px;
+        border-radius: 62px;
+        padding-top: 14px;
+        padding-right: 20px;
+        padding-bottom: 14px;
+        padding-left: 20px;
+        gap: 20px;
+        transform: translateX(-90px);
+    }
+
+    .cart__span2 {
+        font-family: Satoshi;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18.9px;
+        letter-spacing: 0%;
+    }
+
+    .cart__image2 {
+        width: 15px;
+        height: 16.25px;
+        top: 1.25px;
+        left: 2.5px;
+        margin-left: 0px;
+    }
+
+    .cart__span4 {
+        width: 330.00000000000125px;
+        border-width: 1px;
+    }
+
+    .cart__card2 {
+        width: 358px;
+        height: 390.0000305175781px;
+        top: 612px;
+        left: 16px;
+        border-radius: 20px;
+        border-width: 1px;
+        gap: 16px;
+        padding: 20px;
+    }
+
+    .cart__sub2-title {
+        font-family: Satoshi;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21.6px;
+        letter-spacing: 0%;
+    }
+
+    .cart__price {
+        font-family: Satoshi;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 21.6px;
+        letter-spacing: 0%;
+        text-align: right;
+    }
+
+    .cart__price2 {
+        font-family: Satoshi;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 21.6px;
+        letter-spacing: 0%;
+        text-align: right;
+    }
+
+    .cart__span3 {
+        width: 318.0000000000012px;
+        border-width: 1px;
+    }
+
+    .cart__content2 {
+        gap: 5px;
+    }
+
+    .cart__image3 {
+        width: 17.50045394897461px;
+        height: 17.50045394897461px;
+        top: 2.19px;
+        left: 2.19px;
+    }
+
+    .cart__form {
+        gap: 0px;
+    }
+
+    .cart__input {
+        width: 218px;
+        height: 48px;
+        border-radius: 62px;
+        padding-top: 12px;
+        padding-right: 16px;
+        padding-bottom: 12px;
+        padding-left: 16px;
+        font-family: Satoshi;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18.9px;
+        letter-spacing: 0%;
+    }
+
+    .cart__btn3 {
+        width: 88px;
+        height: 48px;
+        border-radius: 62px;
+        padding-top: 12px;
+        padding-right: 16px;
+        padding-bottom: 12px;
+        padding-left: 16px;
+        gap: 12px;
+        font-family: Satoshi;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18.9px;
+        letter-spacing: 0%;
+    }
+
+    .cart__btn4 {
+        width: 318px;
+        height: 54px;
+        border-radius: 62px;
+        padding-top: 16px;
+        padding-right: 54px;
+        padding-bottom: 16px;
+        padding-left: 54px;
+        gap: 12px;
+        font-family: Satoshi;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18.9px;
+        letter-spacing: 0%;
+        padding-left: 110px;
+    }
+}

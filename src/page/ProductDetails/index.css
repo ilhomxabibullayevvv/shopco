@@ -1,0 +1,675 @@
+.product__span {
+    width: 1240.0000000000048;
+    top: 134px;
+    left: 100px;
+    border-width: 1px;
+    border: 1px solid #0000001A;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.product__content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.product__link {
+    font-family: Satoshi;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.6px;
+    letter-spacing: 0%;
+    color: #00000099;
+    margin-bottom: 30px;
+}
+
+.product__link:hover {
+    color: #000000;
+}
+
+.product__item {
+    display: flex;
+    align-items: start;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.product__image {
+    width: 444px;
+    height: 530px;
+    top: 216px;
+    left: 266px;
+    border-radius: 20px;
+}
+
+.product__name {
+    font-family: Integral CF;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.product__rank {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.product__price {
+    font-family: Satoshi;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 43.2px;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.product__description {
+    width: 505px;
+    top: 380px;
+    left: 750px;
+    font-family: Satoshi;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #00000099;
+    margin-bottom: 15px;
+}
+
+.product__span2 {
+    width: 590.0000000000023;
+    top: 437px;
+    left: 750px;
+    border-width: 1px;
+    border: 1px solid #0000001A;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.product__color {
+    font-family: Satoshi;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.6px;
+    letter-spacing: 0%;
+    color: #00000099;
+    margin-bottom: 15px;
+}
+
+.product__colors {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.product__color-btn {
+    width: 37px;
+    height: 37px;
+    background: #4F4631;
+    border-radius: 50%;
+}
+
+.product__color2-btn {
+    width: 37px;
+    height: 37px;
+    background: #314F4A;
+    border-radius: 50%;
+}
+
+.product__color3-btn {
+    width: 37px;
+    height: 37px;
+    background: #31344F;
+    border-radius: 50%;
+}
+
+.product__button {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.product__btn {
+    width: 105px;
+    height: 46px;
+    border-radius: 62px;
+    padding-top: 12px;
+    padding-right: 24px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    gap: 12px;
+    background: #F0F0F0;
+    font-family: Satoshi;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.6px;
+    letter-spacing: 0%;
+    color: #00000099;
+    text-align: center;
+}
+
+.product__btn:hover {
+    background: #000000;
+    color: #FFFFFF;
+}
+
+.product__block {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.product__btn2 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 170px;
+    height: 52px;
+    top: 694px;
+    left: 750px;
+    justify-content: space-between;
+    border-radius: 62px;
+    padding-top: 16px;
+    padding-right: 20px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+    background: #F0F0F0;
+}
+
+.product__span3 {
+    width: 18.75px;
+    height: 18.75px;
+    top: 2.63px;
+    left: 2.63px;
+    font-family: Satoshi;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21.6px;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+.product__cart {
+    width: 400px;
+    height: 52px;
+    top: 694px;
+    left: 940px;
+    gap: 12px;
+    border-radius: 62px;
+    padding-top: 16px;
+    padding-right: 54px;
+    padding-bottom: 16px;
+    padding-left: 54px;
+    background: #F0F0F0;
+    font-family: Satoshi;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21.6px;
+    letter-spacing: 0%;
+    color: #00000099;
+}
+
+.product__btn5 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 170px;
+    height: 52px;
+    top: 694px;
+    left: 750px;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-right: 20px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+    border-radius: 62px;
+    background: #F0F0F0;
+}
+
+.product__cart__span2 {
+    font-family: Satoshi;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21.6px;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+.product__cart:hover {
+    background: #000000;
+    color: #FFFFFF;
+}
+
+.product__content2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.product__sub-title {
+    font-family: Satoshi;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #00000099;
+}
+
+.product__sub-title:hover {
+    color: #000000;
+}
+
+.product__content3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.product__sub2-title {
+    font-family: Satoshi;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32.4px;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+.product__number {
+    font-family: Satoshi;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #00000099;
+}
+
+.product__btn3 {
+    width: 230px;
+    height: 52px;
+    top: 1762px;
+    left: 605px;
+    border-width: 1px;
+    border-radius: 62px;
+    gap: 12px;
+    padding-top: 16px;
+    padding-right: 54px;
+    padding-bottom: 16px;
+    padding-left: 54px;
+    border: 1px solid #0000001A;
+    background: none;
+    font-family: Satoshi;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21.6px;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+.product__btn3:hover {
+    background: #000000;
+    color: #FFFFFF;
+}
+
+.product__content4 {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.product__review {
+    width: 610px;
+    height: 241.5789794921875px;
+    top: 960px;
+    left: 100px;
+    border-width: 1px;
+    border-radius: 20px;
+    gap: 342px;
+    padding-top: 28px;
+    padding-right: 32px;
+    padding-bottom: 28px;
+    padding-left: 32px;
+    border: 1px solid #0000001A;
+}
+
+.product__btn4 {
+    width: 230px;
+    height: 52px;
+    top: 1762px;
+    left: 605px;
+    border-width: 1px;
+    border-radius: 62px;
+    gap: 12px;
+    padding-top: 16px;
+    padding-right: 54px;
+    padding-bottom: 16px;
+    padding-left: 54px;
+    border: 1px solid #0000001A;
+    background: none;
+    font-family: Satoshi;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21.6px;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-left: 500px;
+    margin-bottom: 90px;
+}
+
+.product__btn4:hover {
+    background: #000000;
+    color: #FFFFFF;
+}
+
+.product__review-stars {
+    width: 22.5789852142334px;
+    height: 22.5789852142334px;
+    margin-bottom: 15px;
+}
+
+.product__reviewer-name {
+    font-family: Satoshi;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.product__review-comment {
+    width: 502px;
+    font-family: Satoshi;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #00000099;
+    margin-bottom: 15px;
+}
+
+.product__reviewer-date {
+    font-family: Satoshi;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #00000099;
+}
+
+.product__title {
+    font-family: Integral CF;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57.6px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 30PX;
+}
+
+@media screen and (max-width: 1099px) {
+    .product {
+        padding: 0px 15px;
+    }
+
+    .product__span {
+        width: 358.00000000000136px;
+        top: 98px;
+        left: 16px;
+        border-width: 1px;
+    }
+
+    .product__item {
+        flex-direction: column;
+    }
+
+    .product__link {
+        font-family: Satoshi;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18.9px;
+        letter-spacing: 0%;
+    }
+
+    .product__image {
+        width: 358px;
+        height: 290px;
+        top: 157px;
+        left: 16px;
+        border-radius: 20px;
+    }
+
+    .product__name {
+        width: 207px;
+        top: 585px;
+        left: 16px;
+        font-family: Integral CF;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0%;
+    }
+
+    .product__rank {
+        width: 18.66766357421875px;
+        height: 18.66766357421875px;
+    }
+
+    .product__price {
+        font-family: Satoshi;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32.4px;
+        letter-spacing: 0%;
+    }
+
+    .product__description {
+        width: 358px;
+        top: 736px;
+        left: 16px;
+        font-family: Satoshi;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0%;
+    }
+
+    .product__color {
+        font-family: Satoshi;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18.9px;
+        letter-spacing: 0%;
+    }
+
+    .product__span2 {
+        width: 358.00000000000136px;
+        top: 810px;
+        left: 16px;
+        border-width: 1px;
+    }
+
+    .product__button {
+        gap: 5px;
+    }
+
+    .product__btn {
+        width: 90px;
+        height: 39px;
+        border-radius: 62px;
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        gap: 12px;
+        font-family: Satoshi;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18.9px;
+        letter-spacing: 0%;
+    }
+
+    .product__btn2 {
+        width: 110px;
+        height: 44px;
+        top: 1060px;
+        left: 16px;
+        border-radius: 62px;
+        gap: 16px;
+        padding-top: 12px;
+        padding-right: 16px;
+        padding-bottom: 12px;
+        padding-left: 16px;
+    }
+
+    .product__cart {
+        width: 236px;
+        height: 44px;
+        top: 1060px;
+        left: 138px;
+        border-radius: 62px;
+        gap: 12px;
+        padding-top: 16px;
+        padding-right: 54px;
+        padding-bottom: 16px;
+        padding-left: 54px;
+        font-family: Satoshi;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18.9px;
+        letter-spacing: 0%;
+    }
+
+    .product__btn5 {
+        width: 110px;
+        height: 44px;
+        top: 1060px;
+        left: 16px;
+        padding-top: 12px;
+        padding-right: 16px;
+        padding-bottom: 12px;
+        padding-left: 16px;
+        gap: 16px;
+        border-radius: 62px;
+    }
+
+    .product__sub-title {
+        font-family: Satoshi;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0%;
+    }
+
+    .product__sub2-title {
+        font-family: Satoshi;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 27px;
+        letter-spacing: 0%;
+    }
+
+    .product__btn3 {
+        width: 113px;
+        height: 40px;
+        top: 1206px;
+        left: 261px;
+        border-radius: 62px;
+        gap: 12px;
+        padding-top: 12px;
+        padding-right: 16px;
+        padding-bottom: 12px;
+        padding-left: 16px;
+        font-family: Satoshi;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16.2px;
+        letter-spacing: 0%;
+    }
+
+    .product__content4 {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .product__review {
+        width: 358px;
+        height: 224.1895751953125px;
+        top: 1266px;
+        left: 16px;
+        border-radius: 20px;
+        gap: 332px;
+        border-width: 1px;
+        padding: 24px;
+    }
+
+    .product__reviewer-name {
+        font-family: Satoshi;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0%;
+    }
+
+    .product__review-comment {
+        width: 310px;
+        font-family: Satoshi;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0%;
+    }
+
+    .product__reviewer-date {
+        font-family: Satoshi;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0%;
+    }
+
+    .product__btn4 {
+        width: 195px;
+        height: 47px;
+        top: 2030.19px;
+        left: 98px;
+        border-radius: 62px;
+        gap: 12px;
+        border-width: 1px;
+        padding-top: 14px;
+        padding-right: 36px;
+        padding-bottom: 14px;
+        padding-left: 36px;
+        font-family: Satoshi;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18.9px;
+        letter-spacing: 0%;
+        margin-left: 80px;
+    }
+
+    .product__title {
+        width: 284px;
+        top: 2127px;
+        left: 53px;
+        font-family: Integral CF;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 36px;
+        letter-spacing: 0%;
+        margin-left: 40px;
+    }
+}

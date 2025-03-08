@@ -1,0 +1,24 @@
+.span {
+    padding: 30px 0px;
+}
+
+.span__span {
+    width: 1240.0000000000048;
+    top: 1664px;
+    left: 100px;
+    border-width: 1px;
+    border: 1px solid #0000001A;
+    display: block;
+}
+
+@media screen and (max-width: 1099px) {
+    .span {
+        padding: 15px 15px;
+    }
+    .span__span {
+        width: 358.00000000000136px;
+        top: 1610px;
+        left: 16px;
+        border-width: 1px;
+    }
+}

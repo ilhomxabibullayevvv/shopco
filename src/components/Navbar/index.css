@@ -1,0 +1,113 @@
+.navbar__title {
+    padding: 15px 0px;
+    width: 100%;
+    font-family: Satoshi;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.9px;
+    letter-spacing: 0%;
+    text-align: center;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.navbar__span {
+    font-family: Satoshi;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18.9px;
+    letter-spacing: 0%;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: Auto;
+    color: #FFFFFF;
+}
+
+.navbar__container {
+    padding: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar__menu {
+    background: none;
+    display: none;
+}
+
+.navbar__list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar__form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 577px;
+    height: 48px;
+    gap: 12px;
+    border-radius: 62px;
+    padding-top: 12px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    background: #F0F0F0;
+}
+
+.navbar__input {
+    width: 577px;
+    font-family: Satoshi;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.6px;
+    letter-spacing: 0%;
+    background: #F0F0F0;
+    color: #00000066;
+    border: none;
+    outline: none;
+}
+
+.navbar__icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar__link {
+    font-family: Satoshi;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.6px;
+    letter-spacing: 0%;
+    color: #00000099;
+}
+
+.navbar__link:hover {
+    color: #000000;
+}
+
+@media screen and (max-width: 1099px) {
+    .navbar {
+        padding: 0px 15px;
+    }
+
+    .navbar__block {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .navbar__menu {
+        display: block;
+    }
+
+    .navbar__list {
+        display: none;
+    }
+
+    .navbar__form {
+        display: none;
+    }
+}
