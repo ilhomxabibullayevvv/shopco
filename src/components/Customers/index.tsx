@@ -22,27 +22,24 @@ const Customers = () => {
     useEffect(() => {
         fetch('https://www.e-commerce-api-v2.nt.azimumarov.uz/api/v1/reviews')
             .then((response) => response.json())
-            .then((data) => {
-                setReviews(data.reviews);
-                setVisibleReviews(data.reviews.slice(0, 3));
-            })
+            .then((data) => setReviews(data.reviews))
             .catch((error) => console.error('Error fetching reviews:', error));
     }, []);
 
+    useEffect(() => {
+        setVisibleReviews(reviews.slice(currentIndex, currentIndex + 3));
+    }, [currentIndex, reviews]);
+
     const handlePrevClick = () => {
-        setCurrentIndex((prevIndex) => {
-            const newIndex = prevIndex === 0 ? Math.max(0, reviews.length - 3) : prevIndex - 3;
-            setVisibleReviews(reviews.slice(newIndex, newIndex + 3));
-            return newIndex;
-        });
+        setCurrentIndex((prevIndex) =>
+            prevIndex === 0 ? Math.max(0, reviews.length - 3) : prevIndex - 3
+        );
     };
 
     const handleNextClick = () => {
-        setCurrentIndex((prevIndex) => {
-            const newIndex = prevIndex + 3 < reviews.length ? prevIndex + 3 : 0;
-            setVisibleReviews(reviews.slice(newIndex, newIndex + 3));
-            return newIndex;
-        });
+        setCurrentIndex((prevIndex) =>
+            prevIndex + 3 < reviews.length ? prevIndex + 3 : 0
+        );
     };
 
     return (
@@ -65,8 +62,8 @@ const Customers = () => {
                             <div key={index} className="customers__card">
                                 <p className="customers__stars">{"⭐".repeat(review.stars)}</p>
                                 <div className='customers__block'>
-                                <h3 className="customers__reviewer-name">{review.reviewerName}</h3>
-                                <img src={Icon} alt="" />
+                                    <h3 className="customers__reviewer-name">{review.reviewerName}</h3>
+                                    <img src={Icon} alt="" />
                                 </div>
                                 <p className="customers__comment">{review.comment}</p>
                             </div>
